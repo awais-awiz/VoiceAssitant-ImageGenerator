@@ -6,7 +6,7 @@ Users can **talk to an AI assistant**, get real-time responses, and even **gener
 ---
 
 ## 🚀 Live Demo
-[![Live Demo](https://voiceassistant-imagegenerator.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-brightgreen?style=for-the-badge)](https://voiceassistant-imagegenerator.netlify.app/)
 
 ---
 
