@@ -1,0 +1,51 @@
+/* Mic pulse ring */
+
+  .pulse-ring.active {
+    animation: ringPulse 1.5s infinite;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* Glow mic circle */
+  .glow-circle {
+    background: radial-gradient(circle, #5daff2, #a64bf4);
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(67, 225, 254, 0.6);
+    transition: transform 0.3s;
+    z-index: 2;
+  }
+  
+
+  .glow-circle.active {
+    animation: pulseGlow 1.5s infinite;
+  }
+  
+  /* Animations */
+  @keyframes pulseGlow {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow:
+        0 0 10px rgba(164, 178, 255, 0.3),
+        0 0 20px rgba(164, 178, 255, 0.5),
+        0 0 30px rgba(164, 178, 255, 0.7);
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow:
+        0 0 20px rgba(164, 178, 255, 0.6),
+        0 0 40px rgba(164, 178, 255, 0.7),
+        0 0 60px rgba(164, 178, 255, 0.9);
+    }
+  }
+  
+  @keyframes ringPulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+  

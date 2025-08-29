@@ -1,0 +1,7 @@
+.header {
+    animation: typing 5s steps(18) infinite, blink 0.65s step-end infinite alternate;
+  }
+
+  @keyframes typing { 0%   { width: 0; } 50%  { width: 18ch; }100% { width: 0; }}
+  @keyframes blink {    50% {   border-color: transparent;  }}
+  

@@ -1,0 +1,7 @@
+#root {
+  height: 100vh;
+}
+
+
+@keyframes typing { 0%   { width: 0; } 50%  { width: 18ch; }100% { width: 0; }}
+@keyframes blink {    50% {   border-color: transparent;  }}
