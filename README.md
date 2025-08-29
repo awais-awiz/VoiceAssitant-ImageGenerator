@@ -8,6 +8,22 @@ Users can **talk to an AI assistant**, get real-time responses, and even **gener
 ## 🚀 Live Demo
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-brightgreen?style=for-the-badge)](https://voiceassistant-imagegenerator.netlify.app/)
 
+
+
+## 🛠 Tech Stack
+
+- **React.js** (Vite + JSX)  
+- **JavaScript (ES6)**  
+- **React Router** for navigation  
+- **Tailwind CSS** + custom animations  
+- **Shadcn/ui** for styled buttons and components  
+- **OpenAI APIs**  
+  - Chat Completions API (GPT-3.5 Turbo)  
+  - Image Generation API (DALL·E 3)  
+- **Web Speech API** for voice recognition  
+- **Web Speech Synthesis API** for text-to-speech  
+- **Netlify** (Hosting & Deployment)  
+
 ---
 
 ## ✨ Features
@@ -30,22 +46,6 @@ Users can **talk to an AI assistant**, get real-time responses, and even **gener
 - 🔗 **Extra Pages**  
   - Home, About Me, Contact links with Email, LinkedIn, GitHub.  
   - Reusable **Navbar, Footer, Mobile Menu** with smooth routing.  
-
----
-
-## 🛠 Tech Stack
-
-- **React.js** (Vite + JSX)  
-- **JavaScript (ES6)**  
-- **React Router** for navigation  
-- **Tailwind CSS** + custom animations  
-- **Shadcn/ui** for styled buttons and components  
-- **OpenAI APIs**  
-  - Chat Completions API (GPT-3.5 Turbo)  
-  - Image Generation API (DALL·E 3)  
-- **Web Speech API** for voice recognition  
-- **Web Speech Synthesis API** for text-to-speech  
-- **Netlify** (Hosting & Deployment)  
 
 ---
 
